@@ -1,0 +1,30 @@
+.cart{
+    width: 90%;
+    margin: 0 auto;
+    background-color:blue;
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-areas: 
+    "left right";
+    grid-template-columns: 3fr 2fr;
+}
+.cart .left{
+  grid-area: 'left';
+}
+.cart .left .cart-items{
+  display: flex;
+  justify-content: space-between;
+}
+.cart .left .cart-items .item-details, .cart .left .cart-items .figures{
+  display: flex;
+  gap: 1rem;
+}
+.cart .right{
+  grid-area: 'right';
+}
+.cart .left .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
