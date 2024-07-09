@@ -7,16 +7,16 @@ const Jewelry = (props:any) => {
     return ( 
       <div className="jewelry-list">
         {jewelries.map((Jewelry: any) => {
-          const jewelStyle = {
+/*           const jewelStyle = {
             backgroundImage: `url(${Jewelry.imageUrl})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             width: '200px',
             height: '200px', 
-          };
+          }; */
           return (
             <div className="jewelry" key={Jewelry.id}>
-              <div className="jewel" style={jewelStyle}>
+              <div className="jewel">
                 <FontAwesomeIcon className='jewel-cart' icon={faCartShopping} />
               </div>
               <div className="jewel-details">

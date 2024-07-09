@@ -1,12 +1,12 @@
 import Jewelry from "../components/Jewelry";
 
 const jewelries = [
-  {id: 1, name: 'Alber Diamond Ring', price: '500,000', rating: 4.5, imageUrl: '../../public/images/jewel-1'},
+  {id: 1, name: 'Alber Diamond Ring', price: '500,000', rating: 4.5, imageUrl: '/images/jewel-1'},
   {id: 2, name: 'Emerald Doubles cut ', price: '400,000', rating: 4.2, imageUrl: '/images/jewel-1'},
   {id: 3, name: 'Alber Diamond Ring', price: '320,000', rating: 4.1, imageUrl: '/images/jewel-1'},
   {id: 4, name: 'BT Diamond Earring', price: '550,000', rating: 4.8, imageUrl: '/images/jewel-1'},
   {id: 5, name: 'Alber Diamond Ring', price: '280,000', rating: 3.9, imageUrl: '/images/jewel-1'},
-  {id: 6, name: 'Margan & Paige Charm', price: '400,000', rating: 4.3, imageUrl: './jewel-1'},
+  {id: 6, name: 'Margan & Paige Charm', price: '400,000', rating: 4.3, imageUrl: "'/images/jewel-1'"},
 ]
 
 const Shop = () => {

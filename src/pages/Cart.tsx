@@ -11,18 +11,18 @@ const Cart = () => {
               </div>
               <div className='cart-items'>
                 <div className="item-details">
-                  <img src="" alt="" />
+                  <div className="cart-img"><img src="/images/jewel-1.png" alt="jewel" /></div>
                   <div className="item-info">
                     <p>Ring</p>
                     <h3>Alber Diamond Ring</h3>
                   </div>
                 </div>
                 <div className="figures">
-                <input type="num" />
-                <p>$25,000</p>
-                <p><FontAwesomeIcon icon={faTrashCan} /></p>
+                  <p><input type='number' value={1} /></p>
+                  <p>$25,000</p>
+                  <p><FontAwesomeIcon icon={faTrashCan} /></p>
                 </div>
-            </div>
+              </div>
             </div>
             
             <div className="right"></div>
