@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="home-bg">
-        <h2>Shop</h2>
+        
       </div>
 
       <div className="content">

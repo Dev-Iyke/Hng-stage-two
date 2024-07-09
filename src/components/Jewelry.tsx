@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Jewelry = (props:any) => {
   const jewelries =  props.jewelries
@@ -17,7 +18,8 @@ const Jewelry = (props:any) => {
           return (
             <div className="jewelry" key={Jewelry.id}>
               <div className="jewel">
-                <FontAwesomeIcon className='jewel-cart' icon={faCartShopping} />
+                <Link to="/cart">
+                <FontAwesomeIcon className='jewel-cart' icon={faCartShopping} /></Link>
               </div>
               <div className="jewel-details">
                 <h4>{Jewelry.name}</h4>
@@ -34,6 +36,4 @@ const Jewelry = (props:any) => {
      
 }
 
-
- 
 export default Jewelry;
