@@ -54,7 +54,67 @@
   padding: .5rem;
   cursor: pointer;
 }
+.cart .figures .trash-can{
+  color: #989898;
+}
 .cart .right{
   grid-area: 'right';
-  background-color: #eee;
+  background-color: #F7F7F6;
+  padding: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  height: fit-content;
+}
+.cart .right .total{
+  background-color: #fff;
+  padding: 1rem;
+  font-size: 1.5em;
+}
+.cart .right .total>div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .8rem 0;
+}
+.cart .right .total>div p{
+  color: #7C7C7C;
+  font-weight: 600;
+}
+.cart .right .line{
+  width: 95%;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #BDBDBD;
+}
+.cart .right .check-btn{
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.cart .right .check-btn button:first-child{
+  background-color: #C59B2D;
+  color: #F7F7F6;
+  padding: 1rem;
+  text-align: center;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 0 15px 0 15px;
+}
+.cart .right .check-btn button:nth-child(2){
+  background-color: #F7F7F6;
+  color: #C59B2D;
+  border: 1px solid #C59B2D;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 0 15px 0 15px;
+}
+.cart .right>p{
+  font-size: .85rem;
+  color: #989898;
+  width: 70%;
+  text-align: center;
+  margin: 1rem auto 0;
 }

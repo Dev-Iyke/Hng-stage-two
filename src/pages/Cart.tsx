@@ -20,7 +20,7 @@ const Cart = () => {
                 <div className="figures">
                   <p><input type='number' value={1} /></p>
                   <p>$25,000</p>
-                  <p><FontAwesomeIcon icon={faTrashCan} /></p>
+                  <p><FontAwesomeIcon className='trash-can' icon={faTrashCan} /></p>
                 </div>
               </div>
               <div className='cart-items'>
@@ -34,7 +34,7 @@ const Cart = () => {
                 <div className="figures">
                   <p><input type='number' value={1} /></p>
                   <p>$25,000</p>
-                  <p><FontAwesomeIcon icon={faTrashCan} /></p>
+                  <p><FontAwesomeIcon className='trash-can' icon={faTrashCan} /></p>
                 </div>
               </div>
               <div className='cart-items'>
@@ -48,7 +48,7 @@ const Cart = () => {
                 <div className="figures">
                   <p><input type='number' value={1} /></p>
                   <p>$25,000</p>
-                  <p><FontAwesomeIcon icon={faTrashCan} /></p>
+                  <p><FontAwesomeIcon className='trash-can' icon={faTrashCan} /></p>
                 </div>
               </div>
               <div className='cart-items'>
@@ -62,7 +62,7 @@ const Cart = () => {
                 <div className="figures">
                   <p><input type='number' value={1} /></p>
                   <p>$25,000</p>
-                  <p><FontAwesomeIcon icon={faTrashCan} /></p>
+                  <p><FontAwesomeIcon className='trash-can' icon={faTrashCan} /></p>
                 </div>
               </div>
             </div>
@@ -73,16 +73,19 @@ const Cart = () => {
                   <p>Subtotal</p>
                   <h4>$100,000</h4>
                 </div>
+                <p className="line"></p>
                 <div>
                   <p>Tax</p>
                   <h4>$0</h4>
                 </div>
+                <p className="line"></p>
                 <div>
                   <p>Shipping</p>
                   <h4>$10</h4>
                 </div>
+                <p className="line"></p>
                 <div>
-                  <p>Subtotal</p>
+                  <h3>Total</h3>
                   <h3>$100,010</h3>
                 </div>
               </div>
